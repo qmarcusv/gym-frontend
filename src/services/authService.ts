@@ -16,6 +16,7 @@ class AuthService {
   }
 
   async logIn(email: string, password: string) {
+    console.log(email, password, backend);
     return await fetch(`${backend}/login`, {
       method: "POST",
       headers: this.headers,

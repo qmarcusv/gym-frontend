@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect } from "react";
-import { User } from "../models";
+import { User } from "../models/User";
 const backend = import.meta.env.VITE_BACKEND_URL;
 
 // Typescript types declared
@@ -83,11 +83,5 @@ export const AuthProvider = ({ children }: any) => {
     }
   }, []);
 
-  return (
-    <AuthContext.Provider
-      value={{ currentUser, isAdmin, authLogIn, authLogOut }}
-    >
-      {children}
-    </AuthContext.Provider>
-  );
+  return <AuthContext.Provider value={{ currentUser, isAdmin, authLogIn, authLogOut }}>{children}</AuthContext.Provider>;
 };

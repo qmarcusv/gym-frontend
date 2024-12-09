@@ -30,6 +30,8 @@ const NewUser = () => {
 
     if (response.ok) {
       console.log("User created");
+    } else {
+      console.log("User created failed");
     }
   };
 

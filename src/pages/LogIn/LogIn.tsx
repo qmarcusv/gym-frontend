@@ -15,7 +15,7 @@ export default function LogIn() {
     password?: string;
   }>({});
 
-  const [showPassword, setShowPassword] = useState<boolean>(false);
+  // const [showPassword, setShowPassword] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(false);
 
   const navigate = useNavigate();
@@ -62,10 +62,6 @@ export default function LogIn() {
       ...prevState,
       [name]: "", // Clear the individual field error
     }));
-  };
-
-  const togglePasswordVisibility = () => {
-    setShowPassword(!showPassword);
   };
 
   // ------------------------------------------------------------
