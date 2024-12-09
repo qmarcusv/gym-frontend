@@ -1,3 +1,91 @@
 .LogIn {
-  // LogIn
+
 }
+.login-container {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .login-container form {
+    /* position: relative; */
+  }
+  
+  .login-container h2 {
+    /* text-align: center; */
+    margin-bottom: 20px;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container label {
+    margin-bottom: 5px;
+    width: 120px;
+  }
+  
+  .login-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex: 1;
+  }
+  
+  .login-container button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-container button:disabled {
+    background-color: #cccccc;
+  }
+  
+  .login-container .error {
+    color: red;
+    margin-top: 10px;
+  }
+
+  .input-container {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .error-input {
+    border: 1px solid red !important;
+  }
+
+  .error-client {
+    color: red;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .error-server {
+    color: red;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+  }
