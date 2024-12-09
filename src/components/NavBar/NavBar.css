@@ -1,0 +1,12 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 0 20px;
+}
+
+.NavBar a {
+    margin: 0 20px;
+}

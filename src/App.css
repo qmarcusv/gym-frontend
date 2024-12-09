@@ -1,0 +1,21 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+nav, footer {
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

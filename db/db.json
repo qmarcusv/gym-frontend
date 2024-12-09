@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Toan",
+      "email": "toan@example.com",
+      "password": "123456",
+      "roles": ["admin", "user"],
+      "age": 28,
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "zip": "10001"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nyukit",
+      "email": "nyukit@example.com",
+      "password": "123456",
+      "roles": ["admin", "user"],
+      "age": 32,
+      "address": {
+        "street": "456 Maple St",
+        "city": "Los Angeles",
+        "zip": "90001"
+      }
+    },
+    {
+      "id": 3,
+      "name": "User",
+      "email": "user@example.com",
+      "password": "123456",
+      "roles": ["user"],
+      "age": 25,
+      "address": {
+        "street": "789 Oak St",
+        "city": "Chicago",
+        "zip": "60601"
+      }
+    }
+  ]
+}
